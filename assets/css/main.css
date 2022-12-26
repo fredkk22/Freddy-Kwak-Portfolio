@@ -1970,7 +1970,7 @@ input, select, textarea {
 
 		header.major {
 			border-bottom-width: 1px;
-			border-color: rgba(224, 224, 224, 0.75);
+			border-color: rgba(255, 0, 0, 0.75);
 			border-style: solid;
 			border-top-width: 1px;
 			margin-bottom: 6em;
@@ -1979,7 +1979,7 @@ input, select, textarea {
 		}
 
 			header.major:before, header.major:after {
-				background: rgba(224, 224, 224, 0.75);
+				background: rgba(255, 0, 0, 0.75);
 				content: '';
 				display: block;
 				height: 1px;
@@ -2006,7 +2006,7 @@ input, select, textarea {
 				padding: 1.5em 1.5em 0 1.5em;
 				font-size: 1.5em;
 				line-height: 1.75em;
-				border-top: solid 1px rgba(224, 224, 224, 0.75);
+				border-top: solid 1px rgb(255, 0, 0);
 				display: inline-block;
 			}
 
@@ -2030,7 +2030,7 @@ input, select, textarea {
 
 		footer.major {
 			border-bottom-width: 1px;
-			border-color: rgba(224, 224, 224, 0.75);
+			border-color: rgba(255, 0, 0, 0.75);
 			border-style: solid;
 			border-top-width: 1px;
 			margin-top: 6em;
@@ -2039,7 +2039,7 @@ input, select, textarea {
 		}
 
 			footer.major:before, footer.major:after {
-				background: rgba(224, 224, 224, 0.75);
+				background: rgba(255, 0, 0, 0.75);
 				content: '';
 				display: block;
 				height: 1px;
@@ -2700,18 +2700,18 @@ input, select, textarea {
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("../../images/the-lord-is-my-rock.png");
+		background-image: url("images/top-3200.svg"), url("../../images/3557918.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
-		color: rgba(255, 255, 255, 0.8);
+		color: rgb(255, 255, 255);
 		padding: 10em 0 20em 0;
 		position: relative;
 		text-align: center;
 	}
 
 		#header:before, #header:after {
-			background: rgba(224, 224, 224, 0.75);
+			background: rgba(255, 0, 0, 0.75);
 			content: '';
 			left: 50%;
 			position: absolute;
@@ -2732,7 +2732,7 @@ input, select, textarea {
 
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.35);
-			color: rgba(255, 255, 255, 0.8);
+			color: rgba(0, 0, 0, 0.8);
 		}
 
 			#header a:hover {
@@ -2745,7 +2745,7 @@ input, select, textarea {
 		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #ff0000;
 		}
 
 		#header input[type="submit"],
@@ -3016,7 +3016,7 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("../../images/the-lord-is-my-rock.png");
+				background-image: url("images/top-1600.svg"), url("../../images/3557918.jpg");
 				background-size: 1600px 230px,					auto,							cover;
 				padding: 6em 0 12em 0;
 			}
@@ -3168,7 +3168,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				background-image: url("images/top-1280.svg") url("../../images/the-lord-is-my-rock.png");
+				background-image: url("images/top-1280.svg") url("../../images/3557918.jpg");
 				background-size: 1280px 184px,						auto,							cover;
 				padding: 3em 0 7em 0;
 			}
