@@ -2203,6 +2203,7 @@ input, select, textarea {
 
 			.image.feature img {
 				display: block;
+				width: fit-content;
 			}
 
 		.image.icon {
